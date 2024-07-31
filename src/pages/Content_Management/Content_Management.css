@@ -1,0 +1,8 @@
+/* .editor-container-1 .jodit-wysiwyg {
+    height: 60px !important;
+  }
+   */
+
+   .customHeight .jodit-wysiwyg {
+    height: 300px !important;
+  }

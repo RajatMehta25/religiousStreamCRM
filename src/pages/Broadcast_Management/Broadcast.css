@@ -1,0 +1,28 @@
+.tablePadding .MuiTableCell-root {
+  padding: 8px;
+}
+
+.box.arrow-top {
+  margin-top: 20px;
+}
+.box.Sharearrow-top {
+  margin-top: 65px;
+}
+
+.box.arrow-top:after {
+  content: " ";
+  position: absolute;
+  /* right: 50px; */
+  left: 20px;
+  top: -10px;
+  border-top: none;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid whitesmoke;
+}
+
+@media print {
+  .non-printable {
+    display: none;
+  }
+}

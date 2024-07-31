@@ -1,0 +1,30 @@
+.payHeading {
+  color: white;
+  text-transform: uppercase;
+}
+.payHeading:hover {
+  cursor: pointer;
+}
+/* @media screen and (max-width: 1284px) and (min-width: 781px) {
+  .CustomFilter {
+    margin-top: 25px;
+  }
+} */
+.tablePadding .MuiTableCell-root {
+  padding: 8px;
+}
+.box.arrow-top {
+  margin-top: 20px;
+}
+
+.box.arrow-top:after {
+  content: " ";
+  position: absolute;
+  /* right: 50px; */
+  left: 20px;
+  top: -10px;
+  border-top: none;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid whitesmoke;
+}

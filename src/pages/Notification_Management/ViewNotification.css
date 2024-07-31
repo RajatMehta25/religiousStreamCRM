@@ -1,0 +1,18 @@
+.hoverIndividual:hover {
+  /* border-radius: 15px; */
+  /* border-bottom: 1px solid #148f7b; */
+  background-color: #148f7b !important;
+}
+/* .hoverIndividual {
+  transition: 0.2s;
+} */
+
+.monthYearContainer {
+  outline: none;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  height: 35px;
+}
+.tablePadding .MuiTableCell-root {
+  padding: 8px;
+}

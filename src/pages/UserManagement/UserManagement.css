@@ -1,0 +1,27 @@
+.heightControl {
+  height: 50%;
+}
+
+/* .customSelect .css-2b097c-container {
+  z-index: 4;
+} */
+
+.box.arrow-top {
+  margin-top: 20px;
+}
+
+.box.arrow-top:after {
+  content: " ";
+  position: absolute;
+  /* right: 50px; */
+  left: 50px;
+  top: -10px;
+  border-top: none;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid whitesmoke;
+}
+
+.tablePadding .MuiTableCell-root {
+  padding: 8px;
+}

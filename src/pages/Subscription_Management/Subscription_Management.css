@@ -1,0 +1,27 @@
+.MuiTableContainer-root::-webkit-scrollbar {
+  cursor: pointer !important;
+  width: 12px !important;
+}
+.MuiTableContainer-root::-webkit-scrollbar:horizontal {
+  cursor: pointer !important;
+  height: 12px !important;
+}
+
+.MuiTableContainer-root::-webkit-scrollbar-track {
+  cursor: pointer !important;
+  -webkit-box-shadow: inset 20px 20px 5px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 10px !important;
+}
+
+.MuiTableContainer-root::-webkit-scrollbar-thumb {
+  cursor: pointer !important;
+  border-radius: 10px !important;
+  -webkit-box-shadow: inset 20px 20px 5px rgba(0, 0, 0, 0.3) !important;
+}
+.MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+  /* background-color: lightgreen !important; */
+}
+
+.tablePadding .MuiTableCell-root {
+  padding: 8px;
+}

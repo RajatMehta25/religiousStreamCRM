@@ -1,0 +1,10 @@
+.timestyle .react-time-picker__wrapper {
+  border-radius: 5px !important;
+  border: 1px solid #c4c4c4;
+  width: 240px;
+  padding-inline-start: 30px;
+}
+
+.customPhone .react-tel-input .form-control {
+  width: 100%;
+}
